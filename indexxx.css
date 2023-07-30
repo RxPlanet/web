@@ -1,0 +1,371 @@
+
+*
+{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body
+
+{
+background-image: url(photo-400.jpg);
+background-size: cover;
+background-positino: center;
+box-sizing: border-box;
+font-family: sans-serif;
+
+}
+.menu-bar
+{
+background: rgb(0,100,0);
+text-align: center;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+
+}
+
+.menu-bar ul li
+{
+width:120px;
+margin: 15px;
+padding: 10px;
+
+}
+
+.menu-bar ul li a
+
+{
+
+text-decoration:none;
+color:#fff;
+
+}
+.active,.menu-bar ul li:hover
+{
+
+background: #2bab0d;
+border-radius: 3px;
+
+}
+.menu-bar .fa
+{
+margin-right: 5px;
+}
+
+.sum-menu-1
+{
+
+display:none;
+
+}
+.menu-bar ul li:hover .sum-menu-1
+{
+display: block;
+position:absolute;
+background: rgb(0,100,0);
+margin-top: 10px;
+margin-left: 10px;
+
+}
+
+.menu-bar ul li:hover .sum-menu-1 ul
+{
+display:block;
+margin: 15px;
+
+}
+
+.menu-bar ul li:hover .sum-menu-1 ul li
+{
+
+width: 100px;
+padding: 2px;
+border-bottom: 1px dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align:left;
+
+}
+
+.menu-bar ul li:hover .sum-menu-1 ul li:last-child
+
+{
+
+border-bottom: none;
+}
+
+.menu-bar ul li:hover .sum-menu-1 ul li a:hover
+
+{
+color: #b2ff00;
+
+}
+.fa-angle-right
+{
+float: right;
+}
+
+
+#body
+{
+margin: 2px;
+padding: 3px;
+border: 05px solid rade;
+width: 1200 px;
+heitht: 1500px;
+
+
+}
+
+*
+{
+margin: 0;
+padding: 0;
+
+}
+
+.Loginbox
+
+{
+width: 300px;
+height: 450px;
+background-image: url(Webp.net-gifmaker.gif);
+background-size: cover;
+border: 02px solid red;
+color: #fff;
+top: 55%;
+left: 15%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box;
+padding: 70px 30px;
+
+}
+
+
+.avatar
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top: -50px;
+left: calc(50% - 50px);
+
+}
+
+
+#marquee
+{
+margin: 2px;
+padding: 3px;
+border: 3px solid navy;
+heignt: 40px;
+width: 1250px;
+font-size: 20px;
+}
+
+
+
+
+
+
+
+
+#quotes
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid red;
+height:100px;
+width: 200px;
+background-image: url(images200.png);
+text-align: justify;
+font-size: 10px;
+overflow: scroll;
+
+}
+
+#warapper
+{
+margin: 2px;
+padding: 3px;
+border: 05px solid pink;
+background-image: url(images300.png);
+background-size: cover;
+background-position: center;
+height:300px;
+width: 400px;
+background:ff3355;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+#love-box2
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid green;
+background: none;
+background-position: center;
+height:300px;
+width: 430px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+#love-box3
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(photo-300.jpg);
+background-size: cover;
+background-position: center;
+height:300px;
+width: 400px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+#love-box4
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(images100.png);
+background-position: center;
+height:300px;
+width: 400px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+#love-box5
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background: none;
+background-position: center;
+height:300px;
+width: 430px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+#love-box6
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(images200.png);
+background-position: center;
+height:300px;
+width: 400px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+
+#love-box7
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(images100.png);
+background-size: cover;
+background-position: center;
+height:300px;
+width: 400px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+
+
+
+#love-box8
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(images100.png);
+background-size: cover;
+background-position: center;
+height:300px;
+width: 430px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+float: left;
+}
+
+
+
+
+
+#love-box9
+
+{
+
+margin: 2px;
+padding: 3px;
+border: 05px solid blue;
+background-image: url(images100.png);
+background-size: cover;
+background-position: center;
+height:300px;
+width: 400px;
+overflow: scroll;
+text-align: justify;
+font-size: 20px;
+}
+
+
+
+
