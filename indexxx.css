@@ -10,7 +10,7 @@ body
 
 {
 background-image: url(photo-400.jpg);
-background-size: cover;
+background-size: 900px;
 background-positino: center;
 box-sizing: border-box;
 font-family: sans-serif;
@@ -18,7 +18,7 @@ font-family: sans-serif;
 }
 .menu-bar
 {
-background: rgb(0,100,0);
+background: rgb(0,120,0);
 text-align: center;
 }
 .menu-bar ul
@@ -31,9 +31,9 @@ color: #fff;
 
 .menu-bar ul li
 {
-width:80px;
+width:120px;
 margin: 10px;
-padding: 8px;
+padding: 5px;
 
 }
 
@@ -67,24 +67,24 @@ display:none;
 {
 display: block;
 position:absolute;
-background: rgb(0,100,0);
+background: rgb(0,120,0);
 margin-top: 10px;
-margin-left: 10px;
+margin-left: 5px;
 
 }
 
 .menu-bar ul li:hover .sum-menu-1 ul
 {
 display:block;
-margin: 15px;
+margin:3px;
 
 }
 
 .menu-bar ul li:hover .sum-menu-1 ul li
 {
 
-width: 80px;
-padding: 1px;
+width: 120px;
+padding: 2px;
 border-bottom: 1px dotted #fff;
 background: transparent;
 border-radius: 0;
@@ -116,8 +116,8 @@ float: right;
 margin: 2px;
 padding: 3px;
 border: 05px solid rade;
-width: 900 px;
-heitht: 1200px;
+width: 400px;
+heitht: 700px;
 
 
 }
@@ -129,18 +129,15 @@ padding: 0;
 
 }
 
-.Loginbox
-
-{
 
 #marquee
 {
 margin: 2px;
 padding: 3px;
-border: 2px solid navy;
+border: 3px solid navy;
 heignt: 40px;
-width: 900px;
-font-size: 18px;
+width: 890px;
+font-size: 20px;
 }
 
 
@@ -157,7 +154,7 @@ margin: 2px;
 padding: 3px;
 border: 05px solid red;
 height:100px;
-width: 200px;
+width: 150px;
 background-image: url(images200.png);
 text-align: justify;
 font-size: 10px;
@@ -173,8 +170,8 @@ border: 05px solid pink;
 background-image: url(images300.png);
 background-size: cover;
 background-position: center;
-height:250px;
-width: 300px;
+height:300px;
+width: 294px;
 background:ff3355;
 overflow: scroll;
 text-align: justify;
@@ -192,7 +189,7 @@ border: 05px solid green;
 background: none;
 background-position: center;
 height:300px;
-width: 430px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -210,7 +207,7 @@ background-image: url(photo-300.jpg);
 background-size: cover;
 background-position: center;
 height:300px;
-width: 400px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -229,7 +226,7 @@ border: 05px solid blue;
 background-image: url(images100.png);
 background-position: center;
 height:300px;
-width: 400px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -248,7 +245,7 @@ border: 05px solid blue;
 background: none;
 background-position: center;
 height:300px;
-width: 430px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -267,7 +264,7 @@ border: 05px solid blue;
 background-image: url(images200.png);
 background-position: center;
 height:300px;
-width: 400px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -288,7 +285,7 @@ background-image: url(images100.png);
 background-size: cover;
 background-position: center;
 height:300px;
-width: 400px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -311,7 +308,7 @@ background-image: url(images100.png);
 background-size: cover;
 background-position: center;
 height:300px;
-width: 430px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
@@ -333,7 +330,7 @@ background-image: url(images100.png);
 background-size: cover;
 background-position: center;
 height:300px;
-width: 400px;
+width: 294px;
 overflow: scroll;
 text-align: justify;
 font-size: 20px;
