@@ -12,6 +12,7 @@ body
 background-image: url(photo-400.jpg);
 background-size: 900px;
 background-positino: center;
+background-repeat: no-repeat;
 box-sizing: border-box;
 font-family: sans-serif;
 
