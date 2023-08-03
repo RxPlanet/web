@@ -1,8 +1,8 @@
 
 *
 {
-padding: 0;
-margin: 0;
+padding: 0px;
+margin: 0px;
 box-sizing: border-box;
 }
 
@@ -10,17 +10,22 @@ body
 
 {
 background-image: url(photo-400.jpg);
-background-size: 900px;
+background-size: 1260px;
 background-positino: center;
 background-repeat: no-repeat;
 box-sizing: border-box;
 font-family: sans-serif;
+margin-left:180px;
 
 }
+
+
 .menu-bar
 {
 background: rgb(0,120,0);
 text-align: center;
+width:890px;
+height:50px
 }
 .menu-bar ul
 {
@@ -123,12 +128,11 @@ heitht: 700px;
 
 }
 
-*
-{
-margin: 0;
-padding: 0;
-
+.thamble{
+width: 890px;
+height:550px;
 }
+
 
 
 #marquee
@@ -281,7 +285,6 @@ float: left;
 
 
 
-
 #love-box7
 
 {
@@ -299,10 +302,6 @@ text-align: justify;
 font-size: 20px;
 float: left;
 }
-
-
-
-
 
 
 #love-box8
@@ -323,10 +322,6 @@ font-size: 20px;
 float: left;
 }
 
-
-
-
-
 #love-box9
 
 {
@@ -343,7 +338,3 @@ overflow: scroll;
 text-align: justify;
 font-size: 20px;
 }
-
-
-
-
